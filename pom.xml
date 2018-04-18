@@ -4,7 +4,7 @@
 
 	<groupId>ysoserial</groupId>
 	<artifactId>ysoserial</artifactId>
-	<version>0.0.6-SNAPSHOT-AVFISHER</version>
+	<version>0.0.6-SNAPSHOT-BETA</version>
 	<packaging>jar</packaging>
 
 	<name>ysoserial</name>
