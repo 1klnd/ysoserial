@@ -79,7 +79,7 @@ public class JRMPClient2 extends PayloadRunner implements ObjectPayload<Activato
 
 
     public static void main ( final String[] args ) throws Exception {
-        Thread.currentThread().setContextClassLoader(JRMPClient.class.getClassLoader());
-        PayloadRunner.run(JRMPClient.class, args);
+        Thread.currentThread().setContextClassLoader(JRMPClient2.class.getClassLoader());
+        PayloadRunner.run(JRMPClient2.class, args);
     }
 }
